@@ -5,6 +5,8 @@ from pathlib import Path
 
 SCRIPT_PATH = (
     Path(__file__).resolve().parents[1]
+    / "skills"
+    / "test-generator"
     / "scripts"
     / "detect_test_framework.py"
 )
